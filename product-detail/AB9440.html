@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ABrand Hong Kong</title>
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+
+    </head>
+
+
+
+
+    <body>
+
+        <!--Top Menu Section-->
+
+        <!--Header Section -->
+        <div style="display: flex;
+                    margin-top: 20px;
+
+                    ">
+
+
+            <div style="margin-left: 20px;
+                        font-weight: bold
+                        ;
+                        "> 
+                <div style="color: rgba(0, 0, 255, 1);
+                            font-family: cooper;
+                            ">
+                   ABRAND HONG KONG
+                </div> 
+            </div>
+
+
+            <div> 
+                <div style="
+                    margin-left: 700px;
+                    cursor: pointer;">
+
+                <a href="#" onclick="window.open('../index.html','_blank' )">
+                    Home
+                </a>
+
+                </div> 
+            </div>
+    
+            
+            <div>
+                <div style="
+                        margin-left: 50px;
+                        cursor: pointer;">
+
+                    <a href="#" onclick="window.open('../common-webpage/contact-us.html','_blank' )">
+                        Contact
+                    </a>
+                </div>
+    
+            </div>
+        
+
+        </div>
+
+
+
+
+        <!--Description Section-->
+        <div style="
+                    margin-left: 200px;">
+
+            <h1>AB9440 RFID Reader </h1> 
+            <h2>Description:</h2>
+            <p style="width: 800px;">
+                AB9440 RFID Reader Module Development Kit support ISO1800-6C/EPC C1G2 Protocols. It is connected with Raspberry Pi 3 single-board computer for system control and external connection. User can easily upgrade to Rasberry Pi 4 if necessary. 
+Furthermore, it has built-in provision for connecting with Arduino and HC-05/HC-06  as well.  User can easily enable this feature by setting the internal jumper connection. 
+For the GPIO port interface, it provides 2 x GPI (input) , 2 x GPO(output) and +5V DC. User can easily control the logic level or red the external logic state through firmware command.  It has built-in  buzzer which will generate beep tone when power up initialization is done and during reading tag.
+Moreover, there is one low level mini-USB interface port for connecting the RF module directly to your PC or laptop.  User can then run the PC Demo Application accordingly.
+Raspberry Pi Demo Application (Python code version) and PC computer Demo Application (CSharp code version) are provided so that user can further develop their smart reader features and operations according to different requirements. Sources codes are provided.
+
+
+We highly recommend to use our 8dBi  circular polarization patch antenna to achieve about 9 ~12 meter read range.
+
+            </p>
+            <h2>Specifications:</h2>
+
+            <textarea rows="20" cols="120">
+Operating Frequency	: 860 ~ 960 MHz
+Protocols :EPCglobal UHF Class1 Gen2:EPCglobal UHF Class1 Gen2
+                        ISO 18000-6C / ISO 18000-6B
+Operating voltage :	9V ~ 12V(interface board)  / 3.6V ~ 5V (RFID module)
+Transmit power:	0 ~ 30 dBm
+ Accuracy :	+/1dB
+Sensitivity	:<-85dBm
+RFID Read Range :9 ~ 12 meters (Outdoor and Monza R6 tags) with 8dBi antenna
+Tag buffer : 	1000 tags @96 bit EPC
+Tag RSSI :	Support
+GPIO:	2 inputs and 2 output (3.3V)
+Baud rate:	115200 bps
+Connectivity:Mini-USB
+Countries support:US, Canada and other regions following U.S. FCC
+                Europe and other regions following ETSI EN 302 208 with & without LBT regulations
+                Mainland China / Japan / Korea / Malaysia / Taiwan
+Operating temperature:	-25 ~ +80 degree
+Standby current	:< 50mA
+Sleep mode	:<100uA (EN pin low)
+Weight	:190 g (exclude adaptor)
+Operating current:	1.2A +/-10%  , output 30dBm
+Size:40 x 55 mm (RFID module Board)  /55 x 140 mm (Interface Board) /  100 x 200 mm ( Aluminium Support plate)
+
+            </textarea>
+            <h2>RFID Module Board FPC Cable Pin Assignment:</h2>
+
+
+            <textarea rows="20" cols="120">
+                Pin No	Name	Description
+                1	GND	Ground
+                2	GND	Ground
+                3	VCC	3.7V ~ 5V
+                4	VCC	3.7V ~ 5V
+                5	IO3	GPIO 3 (Output)
+                6	IO4	GPIO 4 (Output)
+                7	IO1	GPIO 1 (Input)
+                8	BUZZER	Buzzer driver output (Imax>50mA)
+                9	UART_RXD	UART Receive data (TTL)
+                10	UART_TXD	UART transmit data (TTL)
+                11	USB_DM	Only for Testing
+                12	USB_DP	Only for Testing
+                13	IO2	GPIO 2 (Input)
+                14	EN	Enable pin (Active High level)
+                15	IO5	For RS-485 flow control
+                
+            </textarea>
+
+            <h2>GPIO Interface Pin Assignment:</h2>
+<textarea rows="20" cols="120">
+     Pin No	Description	Remarks
+    1	+5V DC	
+    2	Ground	
+    3	Output 1+	Logic high is low impedance (close circuit) ; Logic low is high impedance (open circuit)
+    4	Output 1-	
+    5	Output 2+	
+    6	Output 2-	
+    7	Input 1+	
+    8	Input 1-	
+    9	Input 2+	
+    10	Input 2-	
+                
+</textarea>
+
+
+
+
+            <h2>Download:</h2>
+
+            <a href="../download/AB9440/Introduction to AB9330 AB9440_Chipset Firmware Command Sets_v32_release.pdf" 
+                    download="Introduction to AB9330 AB9440_Chipset Firmware Command Sets_v32_release">
+                    Introduction to AB9330 AB9440_Chipset Firmware Command Sets_v32_release
+            </a>
+
+            <a href="../download/AB9440/AB9440 User Manual _v1.0_20210726r1.pdf" 
+                    download="AB9440 User Manual _v1.0_20210726r1.pdf">
+                    AB9440 User Manual _v1.0_20210726r1.pdf
+            </a>
+
+            <a href="../download/AB9440/AB9440 Interface board User Manual_V1.0.pdf" 
+                    download="AB9440 Interface board User Manual_V1.0.pdf">
+                    AB9440 Interface board User Manual_V1.0.pdf
+            </a>
+            <a href="../download/AB9440/CSharp Demo App_Source code.7z" 
+                    download="CSharp Demo App_Source code.7z">
+                    CSharp Demo App_Source code.7z
+            </a>           
+ 
+            </a>
+            <a href="../download/AB9440/Interface Board Schematic.7z" 
+                    download="Interface Board Schematic.7z">
+                    Interface Board Schematic.7z
+            </a>             
+            </a>
+            <a href="../download/AB9440/PC Demo App.7z" 
+                    download="PC Demo App.7z">
+                    PC Demo App.7z
+            </a>  
+
+            <a href="../download/AB9440/Raspberry Python Code.7z" 
+                    download="Raspberry Python Code.7z">
+                    Raspberry Python Code.7z
+            </a>  
+
+
+        </div>
+
+
+
+        <!--Photos Section-->
+        <div style="margin-bottom: 50px;
+                    margin-top: 50px;
+                    margin-left: 100px;">
+
+
+        <!--Photo 1-->
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img  src="../product-photo-900M-RFID/AB9440/1_AB9440_Side view.jpg" alt="AB9300" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+
+
+        <!--Photo 2-->
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img src="../product-photo-900M-RFID/AB9440/2_20200603_213407_cut_adj_word_final_500k.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+
+
+
+
+        <!--Photo 3-->
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img src="../product-photo-900M-RFID/AB9440/3_AB9440_Rear view.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+
+        <!--Photo 4-->
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img  src="../product-photo-900M-RFID/AB9440/4_20200603_212809_cut_adj_word_500k.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+
+
+        <!--Photo 5-->
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img  src="../product-photo-900M-RFID/AB9440/5_Book1_demoapp1_cut_word_Final_500k.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+
+
+
+        <!--Photo 6-->
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img  src="../product-photo-900M-RFID/AB9440/6_Csharp_printscreen1_cut_word_500k.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+        <!--Photo 7-->
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img src="../product-photo-900M-RFID/AB9440/7_Csharp_printscreen2_cut_word_500k.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img src="../product-photo-900M-RFID/AB9440/8_Csharp_printscreen3_cut_word_500k.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+        <div style="margin-bottom: 50px;">
+            <div>
+                <img src="../product-photo-900M-RFID/AB9440/9_20200502_144909_cut_adj_word_600k.jpg" width="600" height="auto">
+            </div>
+            <div>
+                
+            </div>
+        </div>
+
+
+
+        </div>
+
+
+
+
+
+    </body>
+
+
+
+</html>
